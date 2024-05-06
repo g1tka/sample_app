@@ -1,4 +1,5 @@
-<h1>新規投稿</h1>
+<div class="list-new">
+<h1>New Post</h1>
 <% if @list.errors.any? %>
   <%= @list.errors.count %>件のエラーが発生しました
   <ul>
@@ -20,3 +21,4 @@
 
   <%= f.submit '投稿'%>
 <% end %>
+</div>
